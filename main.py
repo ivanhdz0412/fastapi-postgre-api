@@ -22,7 +22,7 @@ app = FastAPI()
 #Endpoint principal
 @app.get("/")
 def root():
-    return {"message": "API para consultar datos de consumo e información e clientes"}
+    return {"message": "API para consultar datos de consumo e información de clientes"}
 
 #Endpoint que calcula la factura para un cliente y un mes específico
 @app.post("/calculate-invoice", response_model=InvoiceResponse)
