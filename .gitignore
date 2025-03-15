@@ -1,0 +1,45 @@
+# Ignorar archivos de entorno virtual
+venv/
+.env/
+.venv/
+
+# Ignorar archivos de configuración local
+config.py
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.log
+*.pot
+
+# Ignorar archivos de base de datos local
+*.sqlite3
+*.db
+
+# Ignorar archivos de compilación y distribución
+build/
+dist/
+*.egg-info/
+*.dist-info/
+
+# Ignorar archivos de caché de Python
+.pytest_cache/
+.mypy_cache/
+
+# Ignorar archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
