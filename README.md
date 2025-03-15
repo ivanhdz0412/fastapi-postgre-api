@@ -17,10 +17,9 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ## Configuración del proyecto
 
 ### 1. Clonar el repositorio
-Si tienes el proyecto en un repositorio, clónalo en tu máquina local:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/ivanhdz0412/fastapi-postgre-api
 cd <CARPETA_DEL_PROYECTO>
 ```
 
@@ -28,7 +27,13 @@ cd <CARPETA_DEL_PROYECTO>
 
     $ pip install -r requirements.txt
 
+### 3. Ejecutar la API 
+
+```bash
+uvicorn main:app --reload
+```
+
 ## Documentación de la API
 
--Swagger UI: http://localhost:8000/docs
--ReDoc: http://localhost:8000/redoc
+- **Swagger UI:** http://localhost:8000/docs
+- **ReDoc:** http://localhost:8000/redoc
