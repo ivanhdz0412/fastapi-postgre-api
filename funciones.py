@@ -260,7 +260,7 @@ def energia_excedente_2(db: Session,ID_service: int, year: int, month: int):
         if (suma >= consumo and switch == False):
             switch=True
             verificar = suma-consumo
-            resultado += (verificar * tarifa)
+            resultado += ((value-verificar) * tarifa)
         elif(switch == True):
             resultado += (value * tarifa)
             verificar += value
